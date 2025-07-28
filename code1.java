@@ -1,29 +1,16 @@
-package codingchallenge1;
+package codingchallenge2;
 
 public class code1 {
-
-	
-		byte default_byte;
-		short default_short;
-		int default_int;
-		long default_long;
-		float default_float;
-		double default_double;
-		char default_char;
-		boolean default_boolean;
-
-		public static void main(String[] args) {
-			
-			code1 p=new code1();
-			System.out.println("Default value for byte: "+p.default_byte);
-			System.out.println("Default value for short: "+p.default_short);
-			System.out.println("Default value for int: "+p.default_int);
-			System.out.println("Default value for long: "+p.default_long);
-			System.out.println("Default value for float: "+p.default_float);
-			System.out.println("Default value for double: "+p.default_double);
-			System.out.println("Default value for char: "+p.default_char);
-			System.out.println("Default value for boolean: "+p.default_boolean);
-
+	public static void main(String[] args) {
+		int a=10;
+		int b=20;
+		System.out.println("Before swapping: "+a+" "+b );
+		int temp=a;
+		a=b;
+		b=temp;
+		System.out.println("After swapping: "+a+" "+b);
+		
+		
 	}
 
 }

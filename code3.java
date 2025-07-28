@@ -1,17 +1,18 @@
-package codingchallenge1;
+package codingchallenge2;
+
 
 public class code3 {
+	int a=10;
+	public void print()
+	{
+		int a=20;
+		System.out.println("Instance variable: "+this.a);
+		System.out.println("Local variable: "+a);
+	}
+
 	public static void main(String[] args) {
-		double d=10;
-		int d1=(int)d;
-		float f=25;
-		byte b=(byte)f;
-		System.out.println("Double value: "+d);
-		System.out.println("After typecasting double to int:"+d1);
-		System.out.println("float value:"+f);
-		System.out.println("After typecasting float to byte:"+b);
-		
-		
+		code3 v=new code3();
+		v.print();
 	}
 
 }

@@ -1,14 +1,16 @@
-package codingchallenge1;
+package codingchallenge2;
 
 public class code2 {
-	public static void main(String[] args) {
-	byte a1=75;
-	byte a2=80;
-	int sum=a1+a2;
-	if(sum>Byte.MAX_VALUE || sum<Byte.MIN_VALUE)
-	System.out.println("Overflow detected:"+sum);
-	else
-		System.out.println(sum);
+	public static void main(String[] args)
+	{
+		int a=10;
+		int b=20;
+		System.out.println("Before swapping: "+a+" "+b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("After swapping: "+a+" "+b);
+
 	}
 
 }

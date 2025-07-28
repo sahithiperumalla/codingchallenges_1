@@ -1,18 +1,15 @@
-package codingchallenge1;
+package codingchallenge2;
 
 public class code4 {
 	public static void main(String[] args) {
-		int a=100;
-		byte b=50;
-		System.out.println("Performing bitwise operations:");
-		System.out.println("AND operation:"+(a&b));
-		System.out.println("OR operation:"+(a|b));
-		System.out.println("XOR operation:"+(a^b));
-		System.out.println("NOT operation:"+~a);
-		System.out.println("Left Shift operation:"+(b<<a));
-		System.out.println("Right Shift operation:"+(b>>a));
-
-
+		final double pi= 3.14;
+		int radius=10;
+		double area=pi*radius*radius;
+		System.out.println("Area of circle: "+area);
+		
+		
+		
 	}
+
 
 }
